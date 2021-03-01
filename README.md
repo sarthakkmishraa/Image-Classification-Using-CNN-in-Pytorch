@@ -37,5 +37,5 @@ The label classes with their respective indices in the dataset are:
 **PyTorch** is an open source machine learning library based on the Torch library, used for applications such as **computer vision and natural language processing**, primarily developed by **Facebook's AI Research lab**. It is a **free and open-source software** released under the Modified BSD license.
 
 
-
+The dataset has been split into **train,test and validation datasets**. The training set consists of **45,000 images** while the validation set consists of **5000 images**. The test set contains the **remaining 10,000 images**. The **CNN model** was trained on the training dataset for **10 epochs** with a learning rate of **0.001** and kernel size of **3x3 2D Convolution filter** matrix. On the top of it, **MaxPool2d** layer was applied and the output was **flattened out to vector**. Images were passed as **Pytorch Tensors** to the model. After training, the model achieved **78% Accuracy** which is a reasonable score. The accuracy can be further improved by **changing the learning rate**, **adding more layers** and **applying regularization techniques.**
 
