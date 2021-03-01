@@ -14,25 +14,25 @@ The **CIFAR-10** data consists of **60,000 32x32 color images in 10 classes, wit
 
 The label classes with their respective indices in the dataset are:
 
-0-> airplane  
+**0-> airplane  
 
-1-> automobile 
+**1-> automobile 
 
-2-> bird 
+**2-> bird 
 
-3-> cat 
+**3-> cat 
 
-4-> deer 
+**4-> deer 
 
-5-> dog 
+**5-> dog 
 
-6-> frog 
+**6-> frog 
 
-7-> horse 
+**7-> horse 
 
-8-> ship 
+**8-> ship 
 
-9-> truck
+**9-> truck
 
 **PyTorch** is an open source machine learning library based on the Torch library, used for applications such as **computer vision and natural language processing**, primarily developed by **Facebook's AI Research lab**. It is a **free and open-source software** released under the Modified BSD license.
 
